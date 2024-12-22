@@ -7,7 +7,7 @@ const Router:React.FC = ()=>{
   return (
     <Routes>
       <Route path="/" element={<Dashboard />} />
-      <Route path="/Repository" element={<Respository />} />
+      <Route path="/repositories/:repository*" element={<Respository />} />
     </Routes>
   );
 }
